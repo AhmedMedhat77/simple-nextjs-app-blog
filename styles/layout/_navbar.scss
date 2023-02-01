@@ -1,0 +1,28 @@
+.navbar {
+  @extend .flex-between;
+  border-bottom: 1px solid #777;
+  width: 100%;
+  padding: 2.2rem 1.5em;
+  &__logo {
+    width: 30%;
+    cursor: pointer;
+    & img {
+      max-width: 100%;
+      object-fit: contain;
+      height: 10rem;
+    }
+  }
+  &__menu {
+    display: flex;
+    &__item {
+      margin-left: 1rem;
+      font-size: 1.6rem;
+      font-weight: bold;
+      font-size: 1.8rem;
+      & :hover {
+        color: indianred;
+        transition: $--tranisition;
+      }
+    }
+  }
+}

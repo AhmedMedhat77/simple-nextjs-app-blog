@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+@import "./Base/reset";
+@import "./Base/variables";
+
+// layout
+@import "./layout/_navbar.scss";
+@import "./layout/footer";
+@import "./layout/title";
+@import "./layout/errorpage";
+
+// pages
+@import "./pages/home";
+@import "./pages/ninjaPage";
+@import "./pages/ninjaDetailsPage";

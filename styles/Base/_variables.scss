@@ -1,0 +1,31 @@
+:root {
+  --main-color: #333;
+  --transition: 0.3s all linear;
+  --padding-small: 0.5rem;
+}
+
+$--main-color: var(--main-color);
+$--tranisition: var(--transition);
+$--padding-small: var(--padding-small);
+
+.container {
+  padding-inline: 1.5rem;
+}
+
+.text {
+  color: #777;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin-bottom: 1.2rem;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

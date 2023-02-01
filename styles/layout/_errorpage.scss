@@ -1,0 +1,7 @@
+.error-page {
+  min-height: 100vh;
+  @extend .flex-center;
+  flex-direction: column;
+  width: 100vw;
+  background-color: #f7f7f7;
+}

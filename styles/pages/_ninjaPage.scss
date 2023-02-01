@@ -1,0 +1,23 @@
+.ninja__item {
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  background-color: #eee;
+  padding: 1.2rem 2em;
+  position: relative;
+
+  & ::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 0.4rem;
+    height: 100%;
+    background-color: rgb(52, 100, 231);
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: 0.1s ease-in;
+  }
+  & :hover::before {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,14 @@
+.title {
+  text-align: center;
+  padding: $--padding-small;
+  margin-bottom: 2rem;
+  &__main {
+    margin-bottom: $--padding-small;
+  }
+  &__desc {
+    max-width: 70%;
+    margin: auto;
+    font-size: 1.3rem;
+    color: rgb(11, 155, 212);
+  }
+}
