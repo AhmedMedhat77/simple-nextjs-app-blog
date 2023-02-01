@@ -1,0 +1,1 @@
+# simple-nextjs-app-blog
